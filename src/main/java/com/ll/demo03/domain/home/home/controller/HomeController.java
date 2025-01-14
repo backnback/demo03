@@ -15,7 +15,7 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String showMain() {
-        return "Hello, World!!!!!, on !ㅗㅗㅗㅗhh메롱hhhㅗㅗㅗㅗ! " + siteName;
+        return "Hello, World!!!!!, on !하잇! " + siteName;
     }
 
     @GetMapping("/secretKey")
